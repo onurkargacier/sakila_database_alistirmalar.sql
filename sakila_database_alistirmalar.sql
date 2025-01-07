@@ -23,4 +23,8 @@ WHERE
         select DISTINCT(MONTH(Payment_date)) from payment
         where (customer_id) = 1 and  amount >3.99;
         
+        #OR OPERATORUNUN KULLANIMI / remtal duration 3 ya da 6 olduğunda sorguyu çekti.
+        SELECT * FROM film
+        WHERE rental_duration = 6 or rental_duration =3; 
+        
         
