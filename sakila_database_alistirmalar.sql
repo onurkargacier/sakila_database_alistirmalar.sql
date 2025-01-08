@@ -1,3 +1,4 @@
+-- SQL script
 /*
 Paragraf şeklinde yorum satırı
 */
